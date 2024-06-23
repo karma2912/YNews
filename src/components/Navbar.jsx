@@ -2,9 +2,7 @@ import React, { Component,useState } from 'react'
 import logo from "./ynlogonew.jpg"
 import { Link } from 'react-router-dom'
 import "./Navbar.css"
-import SwitchButton from './SwitchButton'
-export default class Navbar extends Component {
-  render() {
+const Navbar =()=> {
     return (
      <>
      <header className="text-white font-semibold body-font mb-8 sticky mybgcolor top-0 z-1 sm:pt-0">
@@ -27,5 +25,5 @@ export default class Navbar extends Component {
      </>
     )
   }
-}
+export default Navbar
 

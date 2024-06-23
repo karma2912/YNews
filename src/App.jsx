@@ -4,8 +4,7 @@ import "./App.css"
 import News from './components/News'
 import {Routes,Route} from 'react-router-dom';
 
-export default class App extends Component {
-  render() {
+const App = () => {
     return (
       <>
       <Routes>
@@ -19,5 +18,5 @@ export default class App extends Component {
       </Routes>
       </>
     )
-  }
 }
+export default App
